@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">कृषिसंघ</string>
+    <string name="farmers_login">किसान लॉग इन</string>
+    <string name="vendors_login">विक्रेता लॉगिन</string>
+    <string name="managers_login">प्रबंधक लॉगिन</string>
+    <string name="store_login">दुकान लॉगिन</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="not_registered">पंजीकृत नहीं है ? अभी पंजीकरण करें !</string>
+</resources>

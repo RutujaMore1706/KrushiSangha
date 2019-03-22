@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/profile"
+            android:title="@string/profile"
+            android:icon="@drawable/ic_person_black"/>
+        <item
+            android:id="@+id/search_commodity"
+            android:title="@string/search_commodity"
+            android:icon="@drawable/ic_search"/>
+        <item
+            android:id="@+id/joined_community"
+            android:title="@string/joined_community"
+            android:icon="@drawable/ic_group"/>
+        <item
+            android:id="@+id/market_price"
+            android:title="@string/market_price"
+            android:icon="@drawable/ic_store_mall"/>
+        <item
+            android:id="@+id/weather"
+            android:title="@string/weather"
+            android:icon="@drawable/ic_wb_sunny"/>
+        <item
+            android:id="@+id/stores"
+            android:title="@string/stores"
+            android:icon="@drawable/ic_local_grocery"/>
+        <item
+            android:id="@+id/future_demand"
+            android:title="@string/future_demand"
+            android:icon="@drawable/ic_location_city"/>
+        <item
+            android:id="@+id/my_wallet"
+            android:title="@string/my_wallet"
+            android:icon="@drawable/ic_wallet"/>
+        <item
+            android:id="@+id/notification"
+            android:title="@string/notification"
+            android:icon="@drawable/ic_notifications"/>
+        <item
+            android:id="@+id/logout"
+            android:title="@string/logout"
+            android:icon="@drawable/ic_exit"/>
+    </group>
+
+</menu>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:id="@+id/search_community_layout"
+    tools:context=".SearchCommodityActivity">
+
+    <include layout="@layout/toolbar_layout"
+        android:id="@+id/toolbar_search_commodity"/>
+
+    <Spinner
+        android:id="@+id/spinner_commodity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:spinnerMode="dropdown"
+        android:hapticFeedbackEnabled="true"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/see_warehouse"
+        android:text="@string/see_warehouse"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:visibility="invisible"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/click_here"
+        android:id="@+id/nearest_warehouse_btn"
+        android:layout_margin="20dp"
+        android:visibility="invisible"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/last_year_profit"
+        android:text="@string/last_year_profit"
+        android:textSize="22sp"
+        android:visibility="invisible"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total_farmer"
+        android:text="@string/total_farmer"
+        android:textSize="22sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:visibility="invisible"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/join_group"
+        android:id="@+id/join_group_btn"
+        android:layout_margin="20dp"
+        android:visibility="invisible"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

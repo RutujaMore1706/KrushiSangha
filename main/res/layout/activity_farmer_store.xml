@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/farmer_store_layout"
+    tools:context=".FarmerStoreActivity">
+
+    <include layout="@layout/toolbar_layout"
+        android:id="@+id/toolbar_farmer_store"/>
+
+    <Spinner
+        android:id="@+id/spinner_farmer_item_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:spinnerMode="dropdown"
+        android:hapticFeedbackEnabled="true"
+        android:gravity="center" />
+
+    <Spinner
+        android:id="@+id/spinner_farmer_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:spinnerMode="dropdown"
+        android:hapticFeedbackEnabled="true"
+        android:visibility="invisible"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: "
+        android:layout_margin="20dp"
+        android:visibility="invisible"
+        android:id="@+id/price_tv"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/min"
+        android:layout_margin="20dp"
+        android:visibility="invisible"
+        android:id="@+id/min_tv"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/max"
+        android:layout_margin="20dp"
+        android:visibility="invisible"
+        android:id="@+id/max_tv"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:id="@+id/til_select_quantity"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:hint="Select Quantity"
+            android:id="@+id/et_select_quantity"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/order_btn"
+        android:visibility="invisible"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="order"
+        />
+
+</LinearLayout>

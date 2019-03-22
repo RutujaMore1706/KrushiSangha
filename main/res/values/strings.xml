@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">KrushiSangha</string>
+    <string name="farmers_login">Farmers Login</string>
+    <string name="vendors_login">Vendors Login</string>
+    <string name="managers_login">Managers Login</string>
+    <string name="store_login">Store Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="not_registered">Not Registered ? Register Now !</string>
+    <string name="FCM_PREF">com.apkstudios.krushisangha.fcm_pref</string>
+    <string name="FCM_TOKEN">com.apkstudios.krushisangha.fcm_token</string>
+
+    <string name="farmer_registration">Farmers Registration</string>
+    <string name="vendor_registration">Vendors Registration</string>
+    <string name="store_registration">Stores Registration</string>
+    <string name="full_name">Full Name</string>
+    <string name="org_name">Organization Name</string>
+    <string name="store_name">Store Name</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="lic_num">Licence Number</string>
+    <string name="taluka">Taluka</string>
+    <string name="register">REGISTER</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="add_new_farmer">Add New Farmer</string>
+    <string name="store_products">Store Products</string>
+    <string name="warehouse_products">warehouse Products</string>
+    <string name="my_order">My Order</string>
+    <string name="notification">Notification</string>
+    <string name="logout">Log Out</string>
+    <string name="title_activity_nearest_warehouse">Map</string>
+    <string name="warehouse">Nearest Warehouse</string>
+    <string name="search_commodity">Search Commodity</string>
+    <string name="joined_community">Joined Community</string>
+    <string name="market_price">Market Price</string>
+    <string name="weather">Weather</string>
+    <string name="stores">Store</string>
+    <string name="future_demand">Future Demand</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="manager_name">Manager Name: </string>
+    <string name="see_warehouse">See Nearest Warehouse On Map</string>
+    <string name="click_here">CLICK HERE</string>
+    <string name="last_year_profit">Last Year Profit: </string>
+    <string name="total_farmer">Total Farmers Enrolled: </string>
+    <string name="join_group">JOIN GROUP</string>
+    <string name="min">Min: </string>
+    <string name="max">Max: </string>
+    <string name="manage_farmer_btn">Manage Farmer</string>
+    <string name="add_product">Add Product</string>
+    <string name="farmer_email">Farmer Email</string>
+    <string name="A1">Quanity of A1_Quality</string>
+    <string name="A2">Quanity of A2_Quality</string>
+    <string name="A3">Quanity of A3_Quality</string>
+    <string name="community_id">community id</string>
+
+    <string-array name="commodity">
+        <item>SELECT COMMODITY</item>
+        <item>"POTATO"</item>
+        <item>"ONION"</item>
+    </string-array>
+    <string-array name="item_type">
+        <item>SELECT COMMODITY</item>
+        <item>"SEEDS"</item>
+        <item>"FERTILIZERS"</item>
+        <item>"PESTICIDES"</item>
+        <item>"MACHINERY"</item>
+    </string-array>
+</resources>
